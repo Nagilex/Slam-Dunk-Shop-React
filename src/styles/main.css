@@ -1,0 +1,160 @@
+        /* === GLOBAL === */
+        body {
+            font-family: 'Oswald', sans-serif;
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-color: darkred;
+            display: flex;
+            color: #000000;
+            flex-direction: column;
+        }
+
+        /* === NAVBAR === */
+        .Navegacion {
+            background-color: black;
+            padding: 0.4rem 2rem;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .Navegacion ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 3rem;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo-mini {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-mini img {
+            height: 35px;
+            width: 35px;
+            object-fit: cover;
+        }
+
+        .izquierda {
+            margin-right: auto;
+        }
+
+        .Navegacion li a,
+        .Navegacion .nav-link {
+            color: white;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 700;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .Navegacion li a:hover,
+        .Navegacion .nav-link:hover {
+            color: darkred;
+            background-color: black;
+        }
+
+        /* === PRODUCTOS CARRUSEL === */
+        .card-text {
+            color: black;
+
+        }
+
+        /* === PRODUCTOS === */
+        .product-card {
+            transition: transform 0.3s ease;
+            border: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-image {
+            height: 250px;
+            object-fit: scale-down;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #269640;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        /* === ICONOS === */
+        .d-flex img {
+            width: 20px;
+            height: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .d-flex img:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        /* === FOOTER === */
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .redes-sociales img {
+            width: 20px;
+            height: 20px;
+            transition: transform 0.3s ease;
+            gap: 10rem;
+        }
+
+        .redes-sociales img:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(100%);
+            /* Blanco → Negro */
+        }
+
+        .Resumen h5 {
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+        }
+
+        .Resumen p {
+            color: #ffffff;
+        }
+
+        .Resumen h5 {
+            color: white;
+        }
