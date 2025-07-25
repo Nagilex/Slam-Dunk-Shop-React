@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nagilex/Slam-Dunk-Shop-React/static/css/main.cf339eb8.css",
+    "main.js": "/Nagilex/Slam-Dunk-Shop-React/static/js/main.59f711ec.js",
+    "static/media/bootstrap-icons.woff?": "/Nagilex/Slam-Dunk-Shop-React/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Nagilex/Slam-Dunk-Shop-React/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/Nagilex/Slam-Dunk-Shop-React/index.html",
+    "main.cf339eb8.css.map": "/Nagilex/Slam-Dunk-Shop-React/static/css/main.cf339eb8.css.map",
+    "main.59f711ec.js.map": "/Nagilex/Slam-Dunk-Shop-React/static/js/main.59f711ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf339eb8.css",
+    "static/js/main.59f711ec.js"
+  ]
+}
