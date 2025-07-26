@@ -6,14 +6,14 @@ const products = [
     name: 'Polera SHOHOKU 10',
     description: 'Hanamichi Sakuragi',
     price: 15000,
-    image: '/imagenes/Poleras Local/SakuragiSHOHOKU.png'
+    image: '/imagenes/Poleras_Local/SakuragiSHOHOKU.png'
   },
   {
     id: 2,
     name: 'Polera SHOHOKU 11',
     description: 'Kaede Rukawa',
     price: 15000,
-    image: '/imagenes/Poleras Local/rukawaSHOHOKU.png'
+    image: '/imagenes/Poleras_Local/rukawaSHOHOKU.png'
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ const products = [
     name: 'Polera SHOHOKU 7',
     description: 'Ryota Miyagi',
     price: 15000,
-    image: '/imagenes/Poleras Local/miyagiSHOHOKU.png'
+    image: '/imagenes/Poleras_Local/miyagiSHOHOKU.png'
   },
   {
     id: 9,
